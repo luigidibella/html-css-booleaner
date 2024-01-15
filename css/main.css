@@ -1,0 +1,14 @@
+body{
+
+}
+
+/* HEADER */
+header{
+  height: 200px;
+  text-align: left;
+  background-color: rgb(78, 160, 225);
+}
+
+header img{
+  height: 100px;
+}
