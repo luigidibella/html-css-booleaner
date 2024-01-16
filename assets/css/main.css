@@ -2,13 +2,28 @@ body{
 
 }
 
-/* HEADER */
-header{
-  height: 200px;
-  text-align: left;
-  background-color: rgb(78, 160, 225);
+h1{
+  font-size: 2rem;
 }
 
-header img{
-  height: 100px;
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
 }
+
+/* HEADER */
+header{
+  background-image: url(../img/pattern.png) ;
+  background-color: #4EA0FF;
+  background-size: 30%;
+}
+
+header .logo{
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+header .logo img{
+  width: 200px;
+}
+/* HEADER */
