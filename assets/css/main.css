@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
 
 }
@@ -6,9 +12,30 @@ h1{
   font-size: 2rem;
 }
 
+p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .container{
   max-width: 1100px;
   margin: 0 auto;
+}
+
+.dida{
+  font-size: .8rem;
+  color: #7E8080;
+}
+.dida span{
+  color: #4EA0FF
+}
+
+.caption{
+  font-size: .8rem;
+}
+
+.highlight{
+  background-color: yellow;
 }
 
 /* HEADER */
@@ -27,3 +54,35 @@ header .logo img{
   width: 200px;
 }
 /* HEADER */
+
+/* MAIN */
+main{
+  padding:50px;
+}
+
+main ul{
+  margin-left: 15px;
+}
+
+main table{
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+main table th{
+  text-align: left;
+}
+
+main table thead{
+  background-color: #23A9E5;
+  color: white;
+}
+
+main table .text{
+  width: 50%;
+}
+
+main table .odd{
+  background-color: #B1E5F2;
+}
+/* MAIN */
