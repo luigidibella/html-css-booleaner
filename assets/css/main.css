@@ -86,3 +86,26 @@ main table .odd{
   background-color: #B1E5F2;
 }
 /* MAIN */
+
+/* FOOTER */
+footer h4{
+  color: #777777;
+  margin-bottom:20px;
+}
+
+footer .box-image{
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: white;
+}
+
+footer .box-image#monitor{
+  background-image: url('../img/monitor.jpg');
+}
+
+footer .box-image#graph{
+  background-image: url('../img/graph.jpg');
+}
